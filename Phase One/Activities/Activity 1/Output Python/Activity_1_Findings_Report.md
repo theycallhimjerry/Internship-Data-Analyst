@@ -27,13 +27,3 @@ Candidate grain is provisionally one row per customer snapshot, transaction and 
 
 ## Conclusion / completion status
 **The Activity 1 review and evidence outputs have been prepared.** The deliverable is a reviewed source register with source information, candidate keys, lineage/join gaps and verification requirements. However, the underlying documentation is not yet fully approved/complete: the critical mapping and customer-ID issues must be resolved by the data owner before the sources can be treated as fully verified. Do not label the candidate keys as formally declared keys or assume the ID formats can be joined.
-
-## Required follow-up
-1. Map each source_name_code to a named file/logical source.
-2. Confirm official primary keys and grain for all three datasets.
-3. Explain the master-vs-sales/events customer-ID mismatch and provide an approved crosswalk if appropriate.
-4. Document sales-to-events join rules, cardinality and expected unmatched records.
-5. Complete field definitions, lineage paths, owner/steward assignments, refresh evidence, quality-score methodology and extra_metric_22 definition.
-6. Explain the review-date chronology exceptions.
-
-See the CSV outputs for the reviewed register, dataset profiles, join assessment, register metrics and gap log. The companion SQL file contains reproducible checks for use after loading the three CSVs into a SQL database.
