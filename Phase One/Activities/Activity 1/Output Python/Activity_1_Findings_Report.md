@@ -22,5 +22,5 @@ Candidate grain is provisionally one row per customer snapshot, transaction and 
 - Sales and events share **5,427** distinct customer IDs. Sales has **286** distinct IDs absent from events; events has **269** absent from sales. The expected unmatched rate and correct join direction are not documented.
 - The register contains Yes/No indicators for primary-key, join-key and lineage status, but not the actual key column names, join definitions, lineage path or validation evidence.
 
-## Conclusion / completion status
-**The Activity 1 review and evidence outputs have been prepared.** The deliverable is a reviewed source register with source information, candidate keys, lineage/join gaps and verification requirements. However, the underlying documentation is not yet fully approved/complete: the critical mapping and customer-ID issues must be resolved by the data owner before the sources can be treated as fully verified. Do not label the candidate keys as formally declared keys or assume the ID formats can be joined.
+## Conclusion 
+The deliverable is a reviewed source register with source information, candidate keys, lineage/join gaps and verification requirements. However, the underlying documentation is not yet fully approved/complete: the critical mapping and customer-ID issues must be resolved by the data owner before the sources can be treated as fully verified. Do not label the candidate keys as formally declared keys or assume the ID formats can be joined.
