@@ -1,4 +1,0 @@
-Dataset,Rows,Columns,Missing Values,Duplicate Entire Rows
-Customer master,18000,22,2141,0
-Sales transactions,18000,22,0,0
-Behaviour events,18000,22,0,0
