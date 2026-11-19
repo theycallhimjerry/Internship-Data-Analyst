@@ -1,8 +1,6 @@
 # Activity 1 — Review Source Documentation and Data Lineage
-
 ## Scope and method
 Reviewed the four named Activity 1 materials: README.html, Source_Method_Assumption_KPI_Documentation_Standard.docx, SQL_Python_Data_Cleaning_and_Combining_Guide.docx and Data_Source_Documentation.csv. In line with the README's Foundation catalogue, compared the three Foundation extracts: Customer_Master_Snapshot.csv, Sales_Transaction_Cleaned.csv and Customer_Behaviour_Events.csv. Python/pandas was used for schema, row-count, key uniqueness, null, register-flag and customer-ID overlap checks. No data was silently changed.
-
 ## Results
 - The source register contains 18,000 rows and 22 columns. `doc_id` is unique on all 18,000 rows.
 - `source_name_code` has 16,351 distinct values; 1,532 codes appear more than once. It does not provide an explicit filename mapping for the three Foundation datasets.
@@ -10,7 +8,6 @@ Reviewed the four named Activity 1 materials: README.html, Source_Method_Assumpt
 - 8,919 rows have a last-reviewed date earlier than the documentation date. This is an exception to investigate, not proof that the dates are wrong.
 - `quality_score` ranges from 0.01 to 100.0 (mean 50.29); no calculation method or thresholds were found in the supplied standard.
 - `extra_metric_22` is populated but is not defined in the supplied documentation.
-
 ## Dataset checks
 | File | Rows | Columns | Candidate key | Result |
 |---|---:|---:|---|---|
