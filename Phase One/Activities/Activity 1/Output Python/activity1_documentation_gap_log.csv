@@ -1,0 +1,12 @@
+issue_id,priority,area,evidence_finding,required_action
+GAP-01,Critical,Source-to-register mapping,source_name_code values do not contain the three Foundation filenames and are repeated; no mapping table supplied.,Provide source code-to-filename/logical source mapping; do not infer mapping.
+GAP-02,High,Declared primary keys,"Register has Yes/No flag but no actual key field names. Dataset candidates customer_id, transaction_id and event_id are unique in these extracts but remain inferred.",Data owner to confirm official PK fields and record them in register.
+GAP-03,Critical,Customer join key,Master customer IDs have zero overlap with sales and event customer IDs.,Confirm whether different ID domains are expected and provide approved crosswalk or correct source mapping.
+GAP-04,High,Sales-events relationship,"5,427 distinct customer IDs overlap; 286 sales-only and 269 events-only.","Confirm expected unmatched populations, join direction, cardinality and acceptable match-rate threshold."
+GAP-05,High,Lineage,"9,053/18,000 register rows say lineage_complete=No; register does not provide lineage path/evidence.","Document originating system, extraction, transformations and destination for each named source."
+GAP-06,High,Join documentation,"9,057/18,000 register rows say join_keys_documented=No; remaining Yes rows still do not expose actual join columns.","Record source/target, key columns, join type, cardinality, match rate and validation evidence."
+GAP-07,Medium,Review chronology,"8,919 rows have last_reviewed_date earlier than documentation_date.","Check date meaning, timezone and data-entry quality; correct only with owner evidence."
+GAP-08,Medium,Unexplained register field,extra_metric_22 is populated but has no definition in the column name or supplied standard.,"Define the field, unit, permitted range and business purpose or formally retire it."
+GAP-09,Medium,Quality score,"quality_score ranges 0.01 to 100; supplied documentation does not define formula, scale or thresholds.","Add calculation method, component weights, scale and status thresholds."
+GAP-10,Medium,Source ownership and refresh,Roles and refresh labels are populated but not independently tied to the three named source files or operational evidence.,Assign accountable owner/steward and verify refresh cadence for each file.
+GAP-11,Medium,Field definitions,Dataset columns are present but no field-level data dictionary or code lists were supplied for these three files.,"Add field name, business definition, type, allowed values, nullability and derivation."
