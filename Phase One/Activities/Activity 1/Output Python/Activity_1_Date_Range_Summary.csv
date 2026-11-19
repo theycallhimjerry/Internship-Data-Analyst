@@ -1,0 +1,6 @@
+Dataset,Date Column,Valid Dates,Missing_or_invalid,Earliest Date,Latest Date
+Customer master,snapshot_date,18000,0,2023-01-01,2025-09-29
+Customer master,registration_date,18000,0,2023-01-01,2025-09-29
+Customer master,last_activity_date,15859,2141,2023-01-01,2025-09-29
+Sales transactions,transaction_date,18000,0,2023-01-01,2025-09-29
+Behaviour events,event_date,18000,0,2023-01-01,2025-09-29

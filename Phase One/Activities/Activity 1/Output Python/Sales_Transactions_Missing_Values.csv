@@ -1,0 +1,23 @@
+,Missing Values,Missing Percentage
+transaction_id,0,0.0
+transaction_date,0,0.0
+notes_code,0,0.0
+validation_pass,0,0.0
+analyst_role,0,0.0
+source_file_ref,0,0.0
+outlier_flag,0,0.0
+data_clean_flag,0,0.0
+return_flag,0,0.0
+promo_flag,0,0.0
+payment_status,0,0.0
+margin_pct,0,0.0
+cost_amount,0,0.0
+net_revenue,0,0.0
+discount_pct,0,0.0
+unit_price,0,0.0
+quantity,0,0.0
+region_code,0,0.0
+channel,0,0.0
+product_category,0,0.0
+customer_id,0,0.0
+active_flag,0,0.0
