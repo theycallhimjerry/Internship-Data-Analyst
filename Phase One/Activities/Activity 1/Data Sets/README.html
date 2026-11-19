@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Data Analyst Internship Suite – README</title>
+<style>
+body{font-family:Calibri,Arial,sans-serif;margin:0;padding:0;background:#f7fafc;color:#1a202c;line-height:1.55}
+header{background:#0B2344;color:#fff;padding:1.4rem 1.8rem}
+nav{background:#1A3A5C;padding:.6rem 1.8rem}
+nav a{color:#ebf8ff;margin-right:.9rem;text-decoration:none;font-size:.92rem}
+main{max-width:980px;margin:1.3rem auto;padding:0 1.3rem 2.5rem}
+h2{color:#1A3A5C;border-bottom:2px solid #bee3f8;padding-bottom:.25rem;margin-top:1.6rem;font-size:1.25rem}
+h3{color:#2c5282;font-size:1.05rem;margin-top:1.1rem}
+.card{background:#fff;border-radius:8px;padding:1rem 1.2rem;margin:.9rem 0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+table{border-collapse:collapse;width:100%;font-size:.9rem;margin:.5rem 0}
+th,td{border:1px solid #cbd5e0;padding:.4rem .55rem;text-align:left;vertical-align:top}
+th{background:#ebf8ff}
+ul,ol{margin:.4rem 0 .6rem 1.2rem}
+footer{text-align:center;padding:1.2rem;color:#718096;font-size:.82rem}
+.note{background:#fffaf0;border-left:4px solid #B5935A;padding:.75rem 1rem;margin:1rem 0}
+</style>
+</head>
+<body>
+<header>
+<h1>Data Analyst Internship Suite</h1>
+<p>Programme README and Working Reference</p>
+</header>
+<nav>
+<a href="README.html">Home</a>
+<a href="HTML/01_Foundation_Clean_Combine.html">Foundation</a>
+<a href="HTML/02_EDA_Statistical_Validation.html">EDA &amp; Stats</a>
+<a href="HTML/03_Customer_Sales_Revenue_KPIs.html">KPIs</a>
+<a href="HTML/04_Churn_Demand_Segmentation.html">Churn &amp; Segments</a>
+<a href="HTML/05_Recommendations_Documentation.html">Recommendations</a>
+<a href="HTML/06_Final_Project_Guide.html">Final Project</a>
+</nav>
+<main>
+
+<div class="card">
+<h2>1. Purpose of this Suite</h2>
+<p>This suite provides structured practice material for a Data Analyst internship focused on commercial analysis. Interns learn to query, clean and combine datasets with SQL and Python; run exploratory analysis and statistical validation; build stakeholder-ready views of customer behaviour, sales, revenue and operational KPIs; analyse churn, demand patterns and segments; and turn evidence into retention and growth recommendations. All activities are designed to be completed through shared digital workspaces and scheduled virtual reviews, without requiring physical presence in an office.</p>
+<p>The materials include nineteen CSV datasets, nineteen XLSX workbooks, six Word guides, six PDF frameworks, six HTML phase pages, three presentation decks, supporting JSON catalogues and a simple workflow visual. Every document is written for its own topic. Body text is not reused across files.</p>
+</div>
+
+<div class="card">
+<h2>2. Role Expectations</h2>
+<p>Interns are expected to operate as junior commercial analysts. That means:</p>
+<ul>
+<li>Extracting and joining data with transparent SQL, and applying consistent Python cleaning rules for dates, amounts, keys and categories.</li>
+<li>Profiling distributions, missingness and outliers before formal tests, and logging methods and assumptions so results can be reproduced.</li>
+<li>Calculating and presenting KPIs that match the definitions in the KPI catalogue, with clear targets, status bands and data-quality indicators.</li>
+<li>Investigating churn drivers, demand forecast error and segment differences, and ranking opportunities by impact and feasibility.</li>
+<li>Writing recommendations in a fixed structure: observation, evidence, expected impact, action, owner and success measure.</li>
+<li>Keeping source, method, assumption and KPI documentation complete enough that a supervisor can review the pack without a verbal walkthrough.</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>3. Programme Structure</h2>
+<p><strong>Foundation</strong> — Source documentation, SQL extraction and joins, Python cleaning, reconciliation between systems, and quality profiles. Outputs: cleaned tables, query logs, source register entries, data notes.</p>
+<p><strong>Applied analysis</strong> — Exploratory analysis, statistical validation, behaviour and sales KPI construction, churn and demand diagnostics, segmentation profiles. Outputs: EDA summaries, test results, dashboard facts, opportunity register entries.</p>
+<p><strong>Integrated insights</strong> — Prioritised retention and growth recommendations, benefit tracking, final synthesis pack for virtual stakeholder review. Outputs: recommendation tracker, prioritisation matrix, final project pack with appendix of definitions and assumptions.</p>
+</div>
+
+<div class="card">
+<h2>4. CSV Catalogue (19)</h2>
+<table>
+<tr><th>Filename</th><th>Purpose</th><th>Phase</th></tr>
+<tr><td>Customer_Master_Snapshot.csv</td><td>Customer master extract for cleaning, joining and behaviour analysis</td><td>Foundation</td></tr>
+<tr><td>Sales_Transaction_Cleaned.csv</td><td>Cleaned sales transactions for trend and revenue analysis</td><td>Foundation</td></tr>
+<tr><td>Customer_Behaviour_Events.csv</td><td>Behaviour event log for engagement and journey analysis</td><td>Foundation</td></tr>
+<tr><td>Churn_Event_Register.csv</td><td>Churn events with reasons and pre-churn behaviour</td><td>Applied Analysis</td></tr>
+<tr><td>Demand_Pattern_Analysis.csv</td><td>Demand patterns by product and region for forecasting</td><td>Applied Analysis</td></tr>
+<tr><td>Customer_Segmentation_Profile.csv</td><td>Segment profiles with behavioural and value metrics</td><td>Applied Analysis</td></tr>
+<tr><td>Revenue_KPI_Daily.csv</td><td>Daily revenue and sales KPIs for dashboard tracking</td><td>Applied Analysis</td></tr>
+<tr><td>SQL_Query_Validation_Log.csv</td><td>Log of SQL queries used for extraction, joins and checks</td><td>Foundation</td></tr>
+<tr><td>Python_EDA_Summary.csv</td><td>Summary outputs from Python exploratory analysis runs</td><td>Applied Analysis</td></tr>
+<tr><td>Statistical_Validation_Results.csv</td><td>Statistical validation results supporting decision reliability</td><td>Applied Analysis</td></tr>
+<tr><td>Dashboard_Source_Facts.csv</td><td>Grain-level facts feeding stakeholder dashboards</td><td>Applied Analysis</td></tr>
+<tr><td>Retention_Campaign_Results.csv</td><td>Results of retention actions linked to churn analysis</td><td>Integrated Insights</td></tr>
+<tr><td>Commercial_Opportunity_Register.csv</td><td>Identified commercial opportunities from trends and segments</td><td>Integrated Insights</td></tr>
+<tr><td>Data_Source_Documentation.csv</td><td>Documentation of data sources, refresh and quality</td><td>Foundation</td></tr>
+<tr><td>KPI_Definition_Catalogue.csv</td><td>KPI definitions, calculations and ownership</td><td>Applied Analysis</td></tr>
+<tr><td>Assumption_and_Method_Log.csv</td><td>Analytical assumptions and methods for reproducibility</td><td>Integrated Insights</td></tr>
+<tr><td>Stakeholder_Report_Tracker.csv</td><td>Tracker for stakeholder reports and dashboards</td><td>Applied Analysis</td></tr>
+<tr><td>Growth_Recommendation_Tracker.csv</td><td>Retention and growth recommendations with evidence and owners</td><td>Integrated Insights</td></tr>
+<tr><td>Final_Integrated_Analysis.csv</td><td>Integrated analysis supporting final commercial recommendations</td><td>Integrated Insights</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>5. XLSX Catalogue (19)</h2>
+<table>
+<tr><th>Filename</th><th>Purpose</th><th>Phase</th></tr>
+<tr><td>Sales_Performance_Workbook.xlsx</td><td>Sales performance by channel, region and product</td><td>Applied Analysis</td></tr>
+<tr><td>Customer_Lifetime_Cohort.xlsx</td><td>Cohort-style lifetime value and behaviour metrics</td><td>Applied Analysis</td></tr>
+<tr><td>Churn_Risk_Scorecard.xlsx</td><td>Churn risk scores and drivers for prioritisation</td><td>Applied Analysis</td></tr>
+<tr><td>Demand_Forecast_Accuracy.xlsx</td><td>Forecast accuracy and demand pattern diagnostics</td><td>Applied Analysis</td></tr>
+<tr><td>Segment_Value_Matrix.xlsx</td><td>Segment value and growth matrix for prioritisation</td><td>Applied Analysis</td></tr>
+<tr><td>Revenue_Trend_Decomposition.xlsx</td><td>Revenue trend, seasonality and residual decomposition</td><td>Applied Analysis</td></tr>
+<tr><td>EDA_Quality_Profile.xlsx</td><td>EDA quality profile of analytical datasets</td><td>Foundation</td></tr>
+<tr><td>SQL_Join_Reconciliation.xlsx</td><td>Reconciliation results from multi-table SQL joins</td><td>Foundation</td></tr>
+<tr><td>Conversion_Funnel_Analysis.xlsx</td><td>Funnel conversion metrics by channel and segment</td><td>Applied Analysis</td></tr>
+<tr><td>Operational_KPI_Scorecard.xlsx</td><td>Operational KPI scorecard linked to commercial outcomes</td><td>Applied Analysis</td></tr>
+<tr><td>Retention_Action_Effectiveness.xlsx</td><td>Effectiveness of retention actions by segment and channel</td><td>Integrated Insights</td></tr>
+<tr><td>Pricing_Sensitivity_Analysis.xlsx</td><td>Pricing sensitivity and promo impact for commercial decisions</td><td>Integrated Insights</td></tr>
+<tr><td>Channel_Performance_Compare.xlsx</td><td>Channel comparison for allocation and growth decisions</td><td>Applied Analysis</td></tr>
+<tr><td>Statistical_Test_Catalogue.xlsx</td><td>Catalogue of statistical tests supporting commercial decisions</td><td>Applied Analysis</td></tr>
+<tr><td>Dashboard_Adoption_Metrics.xlsx</td><td>Dashboard adoption and usage metrics</td><td>Applied Analysis</td></tr>
+<tr><td>Assumption_Register_Detail.xlsx</td><td>Detailed assumption register for reproducible analysis</td><td>Integrated Insights</td></tr>
+<tr><td>Growth_Prioritisation_Matrix.xlsx</td><td>Prioritisation matrix for growth and retention opportunities</td><td>Integrated Insights</td></tr>
+<tr><td>Report_Quality_Metrics.xlsx</td><td>Quality metrics for stakeholder reports</td><td>Applied Analysis</td></tr>
+<tr><td>Final_Commercial_Synthesis.xlsx</td><td>Final synthesis for commercial recommendations and presentation</td><td>Integrated Insights</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>6. Documents and Presentations</h2>
+<p><strong>Word guides (6)</strong> — SQL and Python cleaning and combining; EDA and statistical validation standards; customer behaviour, sales and revenue KPI guide; churn, demand and segmentation analysis guide; retention and growth recommendations playbook; source, method, assumption and KPI documentation standard.</p>
+<p><strong>PDF frameworks (6)</strong> — Commercial analysis framework; KPI catalogue for sales, revenue and behaviour; churn and retention playbook; demand and segmentation methods; stakeholder reporting protocol; final project brief.</p>
+<p><strong>HTML phase pages (6)</strong> — Foundation clean and combine; EDA and statistical validation; customer, sales and revenue KPIs; churn, demand and segmentation; recommendations and documentation; final project guide.</p>
+<p><strong>Presentations (3)</strong> — Customer behaviour, sales and revenue briefing; churn, demand and segmentation insights; retention, growth and final project recommendations.</p>
+</div>
+
+<div class="card">
+<h2>7. Recommended Working Sequence</h2>
+<ol>
+<li>Read this README and the phase page that matches your current task.</li>
+<li>Open the relevant CSV and XLSX files and profile keys, nulls and categorical codes.</li>
+<li>Write and version SQL extraction and join scripts; apply Python cleaning rules; reconcile totals.</li>
+<li>Run EDA and any required statistical tests; log methods and assumptions.</li>
+<li>Calculate KPIs from catalogue definitions; build or update dashboard facts; note data-quality issues.</li>
+<li>Analyse churn, demand or segments as required; quantify commercial impact.</li>
+<li>Draft recommendations with owners and success measures; update trackers.</li>
+<li>Assemble the stakeholder pack; circulate before the virtual review; record decisions the same day.</li>
+</ol>
+</div>
+
+<div class="card">
+<h2>8. Submission Checklist</h2>
+<ul>
+<li>Datasets cleaned, joined and validated with documented SQL and Python steps.</li>
+<li>EDA and statistical validation recorded with assumptions and effect sizes where tests were used.</li>
+<li>KPIs defined in the catalogue and calculated consistently across views.</li>
+<li>Churn, demand and segment insights supported by named extracts and methods.</li>
+<li>Recommendations structured with observation, evidence, impact, action, owner and success measure.</li>
+<li>Sources, methods, assumptions and KPI definitions documented and versioned.</li>
+<li>Pack is internally consistent and suitable for remote review without further verbal explanation.</li>
+</ul>
+</div>
+
+<div class="note">
+<strong>Working practice:</strong> Prefer written logs and versioned scripts over informal verbal agreements. Update trackers on the same day as the work. When numbers differ between two outputs, reconcile before presenting either figure to stakeholders.
+</div>
+
+</main>
+<footer>
+<p>Data Analyst Internship Suite – Programme README</p>
+</footer>
+</body>
+</html>
