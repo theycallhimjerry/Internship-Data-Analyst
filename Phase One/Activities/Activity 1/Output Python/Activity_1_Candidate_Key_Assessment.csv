@@ -1,4 +1,0 @@
-Dataset,Candidate Key,Column Exists,Rows,Unique Values,Duplicate Key Values,Null Key Values
-Customer master,customer_id,True,18000,18000,0,0
-Sales transactions,transaction_id,True,18000,18000,0,0
-Behaviour events,event_id,True,18000,18000,0,0
